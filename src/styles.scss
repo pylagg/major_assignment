@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+$color :  #212121;
+
+@mixin center-color {
+    color:  #212121 !important;
+}
+
+.color-centralized {
+    background-color: $color !important;
+}
+
+.color-centralized-darker {
+    background-color: darken($color, 15%) !important;
+}
+
+.color-centralized-text {
+    color: $color !important;
+}
